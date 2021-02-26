@@ -1,0 +1,111 @@
+
+body  {
+
+    color: #1096D5;
+    font-size: 16px;
+    background: url("hi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+
+}
+#contact0{
+    position:absolute;
+    top:90px;
+    left:770px;
+    color:white;
+    
+}
+#facebook{
+    position:absolute;
+    top:470px;
+    left:900px;
+    color:white;
+    font-style: bold;
+    font-size: 25px;
+    
+}
+#contact2{
+    position:absolute;
+       
+    top:200px;
+    left:500px;
+    color:#004e72;
+    font-style: bold;
+    font-size:25px; 
+}
+
+.imag1{
+    position: absolute;
+    left: 949px;   
+    top:-120px;
+    
+
+}
+.imag2{
+    position: absolute;
+    left: 949px;   
+    top:-20px;
+    
+
+}
+
+.imag3{
+    position: absolute;
+    left: 949px;   
+    top:80px;
+   
+
+}
+.imag4{
+    position: absolute;
+    left: 949px;   
+    top: 160px;
+    
+
+}
+
+.imag6{
+    position: absolute;
+    left: 949px;   
+    top:256px;
+    
+
+}
+.imag5{
+    position: absolute;
+    left: 450px;   
+    top:250px;
+    border-radius: 20px;
+
+}
+.imag0{
+    position: absolute;
+    left: 10px;   
+    top:90px;
+    border-radius: 20px;
+
+}
+.imag00{
+    position: absolute;
+    left: 10px;   
+    top:140px;
+    border-radius: 20px;
+
+}
+#loca{
+    position: absolute;
+    left: 50px;   
+    top:95px;
+    font-size:25px;
+}
+#tele{
+    position: absolute;
+    left: 40px;   
+    top:140px;
+    font-size: 25px;
+}
+@media (max-width :991px)
+{
+  nav{display:list-item};  
+} 

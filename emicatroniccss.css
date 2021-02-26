@@ -1,0 +1,296 @@
+body{
+   
+}
+#im1 {
+    width :100%;
+    height :auto;
+}
+#emic {
+   
+    margin-right: 500px;
+    height:60px;
+    height:60px;
+
+}
+
+
+header {
+	width: 100%;
+	height: 60px;
+	background:#7fe7dc;
+    padding-bottom: 0 px ; 
+  
+    
+}
+#logo{
+    color :#26495c ;
+    position :absolute;
+    top :-5px;
+    left:180px;
+    font-size:20px
+    
+    
+}
+#page{
+    font-size: 10 px;
+    font-family: courier;
+    padding:0px;
+    position:absolute;
+    left:20px;
+}
+
+
+
+nav {
+    display: inline-block;
+    margin-left: 300px;
+    margin-top: 20px;
+    position :absolute;
+    left:190px
+}
+
+a {
+	color:#316879;
+	text-decoration: none;
+	font-size:17px ;
+    font-style:bold;
+	font-family: 'times new roman';
+	padding-top :20px;
+    padding-bottom :20px;
+    padding-right:25px;
+    padding-left:25px;
+}
+
+a:hover {
+    color:#c4a35a;
+    background:none;  
+   
+}
+
+#button {
+    width: 50%;
+    height: 50px;
+    background: #316879;
+    color: #f47a60;
+    font-size: 2em;
+    border:none;
+}
+
+button:hover {
+    background:#ced7db;
+}
+.d1{
+    width:1200px;
+    height: auto;
+    background-color: black;
+    background-image: url();
+    background-size : contain ;
+}
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+.image1,.image2,.image3,.image4{
+    display: block;
+    position : absolute;
+    width:100%;
+    height:90vh;
+    
+}
+.image1{
+    animation: fade1 20s infinite;
+}
+
+.image2{
+    animation: fade2 20s infinite;
+}
+.image3{
+    animation: fade3 20s infinite;
+}
+.image4{
+    animation: fade4 20s infinite;
+}
+@keyframes fade1
+{
+    0%{opacity : 1;}
+    25%{opacity : 0;}
+    50%{opacity : 0;}
+    75%{opacity : 0;}
+    100%{opacity : 1;}
+}
+@keyframes fade2
+{
+    0%{opacity : 0;}
+    25%{opacity : 1;}
+    50%{opacity : 0;}
+    75%{opacity : 0;}
+    100%{opacity : 0;}
+}
+@keyframes fade3
+{
+    0%{opacity : 0;}
+    25%{opacity : 0;}
+    50%{opacity : 1;}
+    75%{opacity : 0;}
+    100%{opacity : 0;}
+}
+@keyframes fade4
+{
+    0%{opacity : 0;}
+    25%{opacity : 0;}
+    50%{opacity : 0;}
+    75%{opacity : 1;}
+    100%{opacity : 0;}
+}
+/*.container{
+    position : absolute ;
+    left:0;
+    top:80px;
+    width:100%;
+    height : 100vh;
+    animation:animate 15s ease-in-out infinite ;
+    background-size: cover;
+    
+    
+}
+.outer{
+    position:absolute;
+    left:0;
+    top:80px;
+    width:100%;
+    height:100vh;
+    background:rgba(0,0,0,0.001)
+}*/
+.nous{
+    position : absolute;
+    left:50%;
+    top:65%;
+    transform: translate(-50%,-50%);
+    color:#316879;
+    font-size: 35px;
+    font-style: bold ;
+}
+@keyframes animate {
+    0%,100%{
+        background-image : url(1.JPG)
+    }
+    25%{
+        background-image : url(2.JPG)
+    }
+    50%{
+        background-image : url(3.JPG)
+    }
+    75%{
+        background-image : url(4.JPG)
+    }
+   
+}
+.nous1{
+    width:500px;
+    height:auto;
+    background-color:#7fe7dc;
+    position :absolute;
+    text-align: center;
+    align-items: center;
+    top:75%;
+    left:30%;    
+    border-radius:20px;
+    padding:30px;
+    
+
+}
+.nous22{
+    width:95.5%;
+    height:auto;
+    background-color:#7fe7dc;
+    position :absolute;
+    text-align: center;
+    top:110vh;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding:30px;
+    border-radius:0px;
+    
+
+}
+.nous2{
+    position : absolute;
+    left:50%;
+    top:105vh;
+    transform: translate(-50%,-50%);
+    color:#316879;
+}
+.nous33{
+    width:95.5%;
+    height:auto;
+    background-color:#7fe7dc;
+    position :absolute;
+    text-align: center;
+    top:150vh;
+    padding-left: 30%;
+    padding-bottom: 30%;
+    padding:30px;
+    
+    
+
+}
+.nous3{
+    position : absolute;
+    left:50%;
+    top:140vh;
+    transform: translate(-50%,-50%);
+    color:#316879;
+}
+.nous44{
+    width:95.5%;
+    height:auto;
+    background-color:#7fe7dc;
+    position :absolute;
+    text-align: center;
+    top:185vh;
+    padding-left: 30%;
+    padding-bottom: 30%;
+    padding:30px;
+    
+    
+
+}
+.nous4{
+    position : absolute;
+    left:50%;
+    top:175vh;
+    transform: translate(-50%,-50%);
+    color:#316879;
+}
+.nous55{
+    width:95.5%;
+    height:auto;
+    background-color:#7fe7dc;
+    position :absolute;
+    text-align: center;
+    top:225vh;
+    padding-left: 30%;
+    padding-bottom: 30%;
+    padding:30px;
+    
+    
+
+}
+.nous5{
+    position : absolute;
+    left:50%;
+    top:220vh;
+    transform: translate(-50%,-50%);
+    color:#316879;
+}
+@media (max-width :991px)
+{
+  .image1{width:500px;}
+  .image3{width:600px;}
+  .image2{width:600px;}
+  .image4{width:600px;}
+  .nous1{width:250px;}
+  .nous,.nous2,.nous3,.nous4,.nous5{font-size: 100px;}
+  
+}
